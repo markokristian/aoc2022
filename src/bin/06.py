@@ -1,6 +1,3 @@
-from collections import Counter
-
-
 def part1():
     with open("./input/06") as f:
         msg = [l.rstrip() for l in f.readlines()][0]
